@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    
+}
+.body{
+    font-family: "Raleway", sans-serif;
+    background-color: black;
+
+}
+.body:hover{
+    border: 3px solid white;
+    height:100vh;
+
+}
+.head1{
+    color: white;
+    border: 3px solid white;
+    text-decoration: line-through;
+
+}
+.head4 {
+    color: white;
+}
+span{
+    color :yellow;
+    text-decoration:line-through;
+}
+
+div{
+    margin: auto;
+    height: 400px;
+    width: 300px;
+}
+button{
+    background-color: lightgreen;
+}
+.delete
+{
+    background-color: red;
+}
+.content{
+    text-align: center;
+    margin-top: 2rem;
+}
+.addbtn:hover{
+    box-shadow: 10px 10px 8px white;
+    border: 10px solid white;
+    transition: ease-in-out 0.3s;
+    /* text-decoration:double; */
+}
+.btn-danger:hover {
+    box-shadow: 10px 10px 8px white;
+    border: 10px solid white;
+    transition: ease-in-out 0.3s;
+    }
+
+
+@media only screen and (max-width: 768px) {
+    .body {
+        height: auto;
+        /* Auto height */
+    }
+
+    div {
+        height: auto;
+        /* Auto height */
+        width: 80%;
+        /* Adjust width for smaller screens */
+    }
+
+    .content {
+        margin-top: 1rem;
+        /* Adjust margin-top for smaller screens */
+    }
+
+    .addbtn,
+    .btn-danger {
+        padding: 1rem 2rem;
+        /* Adjust button padding for smaller screens */
+    }
+}
+        
+
+#taskTable {
+    background-color: black;
+    /* Set the background color of the table */
+    color: white;
+    /* Set the text color of the table */
+}
